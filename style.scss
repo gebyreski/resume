@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&family=Inter:wght@400;600&display=swap');
+
+$dark-color:#21243D;
+$primary-green:#136223;
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    max-width:1080px ;
+    margin: 0 auto;
+}
+
+.main-section{
+    display: flex;
+    padding: 228px 148px 54px;
+    margin-bottom: 142px;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-right: 108px;
+
+        h1{
+            font-family: Heebo;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        p{
+            font-family: Heebo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+           text-align: left;
+
+        }
+    }
+    
+    img{
+        width: 243px;
+        height: 243px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: -5px 15px 3px #EDF7FA ; 
+    }
+
+}
+
+.second-main{
+    display: flex;
+    background:#EDF7FA;
+    h3, ol, h4, p, span{
+        font-family: "Inter", sans-serif;
+    } 
+    
+    .bungkus{
+        margin-top: 8px;
+        padding-left: 148px;
+        padding-right: 148px;
+        display: flex;
+
+        .pertama{
+            width: 398px;
+            height: 145px;
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+                font-style: normal;
+                line-height: 21.78px;
+         
+                letter-spacing: 1.5%;
+                 color: $primary-green;
+                            }
+                            ul{
+                                margin-top: 20px;
+                ol{
+                    display: inline-block;
+                    text-align: center;
+                    display: flex;
+                    padding-bottom: 10px;
+    
+                    img{
+                        padding-right: 19.62px;
+                    }
+                }
+            }
+        }
+        .kedua{
+            width: 398px;
+            height: 384px;
+    
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+                font-style: normal;
+                line-height: 21.78px;
+                letter-spacing: 1.5%;
+                color: $primary-green;
+                padding-bottom: 16px;
+            }
+            h4{
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17px;
+                letter-spacing: 0.015em;
+                color: black;
+                margin: 6px 0;
+            }
+            p{
+                font-weight: 400;
+                font-size: 12px;
+                color: black;
+                span{
+                    font-style: italic;
+                }
+            }
+            ul{
+                padding-bottom: 6px;
+    
+                ol{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    margin: 6px 0;
+    
+                }
+            }
+    }
+    }
+    
+}
+
+
+last-main{
+   
+    .bungkus{
+        margin-top: 8px;
+        padding-left: 148px;
+        padding-right: 148px;
+        display: flex;
+
+    .per{
+        img{position: absolute;
+            width: 246px;
+            height: 180px;
+            left: 146px;
+            top: 1088px;
+            border-radius: 6px;}
+            h3{//styleName: TITLE 2;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0.015em;
+                text-align: left;
+                }
+            h2{font-family: Heebo;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 0px;
+                text-align: left;
+                justify-content: left;
+                }
+        
+           p{font-family: Heebo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            }
+    }
+
+    
+   
+
+    }
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+   margin-top: 50px;
+   margin-bottom: 50px;
+        
+    
+
+  
+}
+
+.icon{
+    padding: 0 20px;  
+  }
+

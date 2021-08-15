@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 228px 148px 54px;
+  margin-bottom: 142px;
+}
+
+.main-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 108px;
+}
+
+.main-section div h1 {
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main-section div p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main-section img {
+  width: 243px;
+  height: 243px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: -5px 15px 3px #EDF7FA;
+          box-shadow: -5px 15px 3px #EDF7FA;
+}
+
+.second-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #EDF7FA;
+}
+
+.second-main h3, .second-main ol, .second-main h4, .second-main p, .second-main span {
+  font-family: "Inter", sans-serif;
+}
+
+.second-main .bungkus {
+  margin-top: 8px;
+  padding-left: 148px;
+  padding-right: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-main .bungkus .pertama {
+  width: 398px;
+  height: 145px;
+}
+
+.second-main .bungkus .pertama h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 21.78px;
+  letter-spacing: 1.5%;
+  color: #136223;
+}
+
+.second-main .bungkus .pertama ul {
+  margin-top: 20px;
+}
+
+.second-main .bungkus .pertama ul ol {
+  display: inline-block;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.second-main .bungkus .pertama ul ol img {
+  padding-right: 19.62px;
+}
+
+.second-main .bungkus .kedua {
+  width: 398px;
+  height: 384px;
+}
+
+.second-main .bungkus .kedua h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 21.78px;
+  letter-spacing: 1.5%;
+  color: #136223;
+  padding-bottom: 16px;
+}
+
+.second-main .bungkus .kedua h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.015em;
+  color: black;
+  margin: 6px 0;
+}
+
+.second-main .bungkus .kedua p {
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+}
+
+.second-main .bungkus .kedua p span {
+  font-style: italic;
+}
+
+.second-main .bungkus .kedua ul {
+  padding-bottom: 6px;
+}
+
+.second-main .bungkus .kedua ul ol {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 6px 0;
+}
+
+last-main .bungkus {
+  margin-top: 8px;
+  padding-left: 148px;
+  padding-right: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+last-main .bungkus .per img {
+  position: absolute;
+  width: 246px;
+  height: 180px;
+  left: 146px;
+  top: 1088px;
+  border-radius: 6px;
+}
+
+last-main .bungkus .per h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+
+last-main .bungkus .per h2 {
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+last-main .bungkus .per p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icon {
+  padding: 0 20px;
+}
+/*# sourceMappingURL=style.css.map */
